@@ -7,7 +7,6 @@ class PicsController < ApplicationController
     @pic= Pic.find(params[:id])
   end
   def new
-
     @pic= current_user.pics.build
   end
   def create

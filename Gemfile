@@ -37,6 +37,8 @@ gem 'paperclip'
 
 gem 'masonry-rails'
 
+gem 'acts_as_votable'
+
 group :development, :test do
 
   gem 'byebug', platform: :mri

@@ -35,6 +35,8 @@ gem 'simple_form'
 
 gem 'paperclip'
 
+gem 'masonry-rails'
+
 group :development, :test do
 
   gem 'byebug', platform: :mri

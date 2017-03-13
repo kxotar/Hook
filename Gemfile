@@ -33,6 +33,8 @@ gem 'haml', '~> 4.0.5'
 
 gem 'simple_form'
 
+gem 'paperclip'
+
 group :development, :test do
 
   gem 'byebug', platform: :mri
